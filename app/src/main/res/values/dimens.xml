@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Padding Dimens-->
+    <dimen name="hk_padding_tiny">4dp</dimen>
+    <dimen name="hk_padding_small">8dp</dimen>
+    <dimen name="hk_padding_pre_medium">12dp</dimen>
+    <dimen name="hk_padding_medium">16dp</dimen>
+    <dimen name="hk_padding_pre_big">20dp</dimen>
+    <dimen name="hk_padding_big">24dp</dimen>
+
+</resources>

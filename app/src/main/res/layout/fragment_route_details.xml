@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <include layout="@layout/include_items_route" />
+
+            <com.mm.product.client.route.ui.view.HKImageView
+                android:id="@+id/item_route_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/item_route_tv"
+                android:layout_marginEnd="33dp"
+                android:layout_marginRight="33dp"
+                app:srcCompat="@drawable/ic_unhappy"
+                tools:ignore="VectorDrawableCompat" />
+
+            <com.mm.product.client.route.ui.view.HKTextView
+                android:id="@+id/item_route_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="TextView"
+                android:textSize="12sp"
+                android:layout_below="@+id/item_route_tv"
+                android:layout_alignLeft="@+id/item_route_tv"
+                android:layout_alignStart="@+id/item_route_tv"
+                android:maxLines="2"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/routes_rv_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll"
+        android:layout_margin="8dp" />
+</RelativeLayout>

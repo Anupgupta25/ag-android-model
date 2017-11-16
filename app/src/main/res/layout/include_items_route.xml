@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <com.mm.product.client.route.ui.view.HKImageView
+        android:id="@+id/item_route_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        tools:src="@mipmap/ic_launcher"
+        android:layout_marginLeft="10dp"/>
+
+    <com.mm.product.client.route.ui.view.HKTextView
+        android:id="@+id/item_route_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text=""
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="22sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/item_route_image"
+        android:layout_toEndOf="@+id/item_route_image"
+        android:maxWidth="100dp"
+        android:minWidth="100dp"
+        android:singleLine="true"/>
+</merge>

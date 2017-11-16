@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Routes</string>
+
+    <string name="str_create_product">Create Product</string>
+    <string name="str_show_product"> Show Product</string>
+
+    <string name="some_error">Some Error Occurred!</string>
+    <string name="connection_error">Internet connection lost!</string>
+
+    <string name="title_routes_list">My Routes</string>
+
+</resources>
